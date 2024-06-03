@@ -1,0 +1,377 @@
+*{
+    padding:0px;
+    margin:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: rgb(214, 213, 225);
+
+}
+
+navbar{
+    background-color: rgb(255, 255, 255);
+}
+ 
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* main section */
+
+.main{
+    background: url(images/WhatsApp\ Image\ 2024-06-01\ at\ 10.56.21\ AM.jpeg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+   
+    
+
+}
+
+.p-50{
+    padding-top: 217px;
+    padding-left: -18px;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+    text-shadow: 2px 5px 9px rgba(0,0,0,0.63);
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 2;
+    
+    border-bottom:3px solid rgb(99, 252, 17) ;
+    width:40%;
+}
+
+ .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233,20,109);
+    color:white;
+    outline: none;
+    border:none;
+    font-weight:bold ;
+    border-radius: 5px;
+}
+
+.bt1:hover{
+    background-color:rgb(52, 165, 62);
+    transition: 0.5s;
+}
+
+.bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color:rgb(233,20,109);
+    outline: none;
+    border:1px solid rgb(233,20,109);
+    font-weight:bold ;
+    border-radius: 5px;
+}
+
+.bt2:hover{
+    background-color:rgb(233, 20, 20);
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
+.about img{
+    box-shadow: 6px -4px 33px -24px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px -4px 33px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px -4px 33px -24px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 2px 5px 9px rgba(0,0,0,0.63);
+}
+
+.progress{
+    background-color: rgb(195, 217, 217);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height:25px;
+    left: 100px;
+    width: 60%;
+    
+}
+
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    height:25px;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.progress p{
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    padding-top: 4px;
+
+}
+
+
+.pro-value2{
+    animation:load2 3s normal forwards;
+    border-radius: 50px;
+    height:25px;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.pro-value3{
+    animation:load3 3s normal forwards;
+    border-radius: 50px;
+    height:25px;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.pro-value4{
+    animation:load4 3s normal forwards;
+    border-radius: 50px;
+    height:25px;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.pro-value5{
+    animation:load5 3s normal forwards;
+    border-radius: 50px;
+    height:25px;
+    width: 0;
+    background-color: rgb(0, 0, 0);}
+
+
+    .pro-value6{
+        animation:load6 3s normal forwards;
+        border-radius: 50px;
+        height:25px;
+        width: 0;
+        background-color: rgb(0, 0, 0);}
+    
+        
+    .pro-value7{
+        animation:load7 3s normal forwards;
+        border-radius: 50px;
+        height:25px;
+        width: 0;
+        background-color: rgb(0, 0, 0);}
+    
+
+
+
+@keyframes load1{
+    0%{
+       width:0 ; 
+    }
+    100%{
+        width:85%;
+    }
+
+}
+
+
+
+@keyframes load2{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width:80%;
+    }
+
+}
+
+
+@keyframes load3{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width:52%;
+    }
+
+}
+
+
+@keyframes load4{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width:71%
+    }
+
+}
+
+
+@keyframes load5{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width:42%
+    }
+
+}
+
+
+@keyframes load6{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width: 79%
+    }
+
+}
+
+
+@keyframes load7{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width: 69%
+    }
+
+}
+
+
+
+.list1{
+    position: relative;
+    top: -191px;
+    left: 429px;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 500;
+     position: relative;
+     top: -134px;
+}
+.para1{
+    position: relative;
+    top: -120px;
+}
+
+
+.skillh1{
+    position: relative;
+    left: 100px;;
+}
+
+.codingimg{
+    position: relative;
+    height: 618px;
+    width: 712px;
+    left:733px;
+    top: -587px;
+}
+
+.codingimg{
+    box-shadow: 6px -4px 33px -24px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px -4px 33px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -4px 33px -24px rgba(0,0,0,0.75);}
+
+.projimg{
+    position: absolute;
+    top: 2877px;
+    width: 756px;
+    height: 483px;
+    
+}
+
+.project h1{
+    position: relative;
+    top: -674px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.para2{
+    
+        position: relative;
+        top: -568px;
+        left: 817px;
+         
+    
+    
+}
+
+.projimg1{
+    position: absolute;
+    top: 3403px;
+    width: 745px;
+    height: 711px;
+    left: 76px;
+}
+
+.projimg2{
+    position: absolute;
+    top: 3386px;
+    width: 649px;
+    height: 734px;
+    left: 847px;
+}
+
+
+/* contact */
+
+/* 
+#contact {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("../images/contact-bg.jpeg");
+  } */
+
+  #contact{
+    position: relative;
+    top: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image:url(images/wp11966803-pc-keyboard-wallpapers.jpg);
+    color: whitesmoke;
+    
+  }
+  .form-control{
+    background-color:transparent;
+   
+    
+  }
+  
+  .contacts{
+    margin-top: 0px;
+    
+  }
+  
